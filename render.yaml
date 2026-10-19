@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: vless-sg
+    runtime: docker
+    region: singapore
+    plan: free
+    envVars:
+      - key: UUID
+        value: bf54ccf5-2518-484e-bff5-e108822815e1
+      - key: WSPATH
+        value: /sgkeK3j1cwBmpD2Z
